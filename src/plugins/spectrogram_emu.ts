@@ -61,14 +61,14 @@ export type SpectrogramEmuPluginOptions = {
    */
   height?: number
   /**
-   * Length of analysis window in seconds
-   * @default 0.05
-   */
-  /**
    * Channel to draw spectrogram from.
    * @default 0
    */
   channel?: number
+  /**
+   * Length of analysis window in seconds
+   * @default 0.05
+   */
   windowSizeInSecs?: number
   /**
    * Upper frequency displayed
